@@ -1,0 +1,19 @@
+/* Additional styles for the "Tentang Saya" section */
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.profile-photo {
+    width: 150px; /* Sesuaikan dengan ukuran yang diinginkan */
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Additional animations for the "Tentang Saya" section */
+.about-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
