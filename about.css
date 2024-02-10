@@ -17,3 +17,12 @@
     padding: 20px;
     animation: fadeInUp 1s ease-in-out;
 }
+
+img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+img:hover {
+    transform: rotate(12deg);
+}
